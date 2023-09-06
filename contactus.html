@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact Us Form</title>
+</head>
+<body>
+    <div>
+        <h2>Contact Us</h2>
+        <form action="submit.php" method="get">
+            <label>
+                First Name: <input type="text" />
+            </label>
+
+            <label>
+                Last Name: <input type="text" />
+            </label><br><br>
+
+            <label>
+                I want ask about:
+            <select>
+                <option value="wds">Webdesign Services</option>
+                <option value="mks">Marketing Services</option>
+                <option value="seo">SEO Services</option>
+            </select>
+            </label><br><br><br>
+
+            <label>
+                Type your Message: <br>
+                <textarea name="message" cols="12" rows="5"> Type your message here.</textarea>
+            </label><br><br>
+
+            <label>
+                I read and Agree to the Terms and Condition <input type="checkbox" />
+            </label><br><br>
+
+            <label>
+                Submit:
+                <input type="submit" name="submit" value="submit" />
+            </label><br><br>
+        </form>
+    </div>
+</body>
+</html>
